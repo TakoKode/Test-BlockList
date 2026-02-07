@@ -18,11 +18,11 @@ static.cloudflareinsights.com
 #googles.video
 
 # === CDN / LIBRARIES (Consider carefully before blocking) ===
-cdn.jsdelivr.net
-cdnjs.cloudflare.com
-code.jquery.com
-fonts.gstatic.com
-ssl.p.jwpcdn.com
+#cdn.jsdelivr.net
+#cdnjs.cloudflare.com
+#code.jquery.com
+#fonts.gstatic.com
+#ssl.p.jwpcdn.com
 
 # === UNKNOWN / OTHER ===
 fs.cameron-srva.com
