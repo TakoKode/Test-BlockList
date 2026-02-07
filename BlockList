@@ -10,19 +10,19 @@ www.googletagmanager.com
 static.cloudflareinsights.com
 
 # === CONTENT DELIVERY / VIDEO HOSTING ===
-#cyberlumina.com
-#ap.travapo.com
-#vfs.travapo.com
-#image.cdend.com
-#sv1.cdend.com
-#googles.video
+cyberlumina.com
+ap.travapo.com
+vfs.travapo.com
+image.cdend.com
+sv1.cdend.com
+googles.video
 
 # === CDN / LIBRARIES (Consider carefully before blocking) ===
-#cdn.jsdelivr.net
-#cdnjs.cloudflare.com
-#code.jquery.com
-#fonts.gstatic.com
-#ssl.p.jwpcdn.com
+cdn.jsdelivr.net
+cdnjs.cloudflare.com
+code.jquery.com
+fonts.gstatic.com
+ssl.p.jwpcdn.com
 
 # === UNKNOWN / OTHER ===
-#fs.cameron-srva.com
+fs.cameron-srva.com
