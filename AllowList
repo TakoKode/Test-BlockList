@@ -1,21 +1,396 @@
-# Plex Core
+# ===================================
+# WINDOWS 11 / MICROSOFT CORE SERVICES
+# ===================================
+# These are REQUIRED for Windows Update, Store, and basic functionality
+# Aggressive lists often block these thinking they're telemetry
+microsoft.com
+msftconnecttest.com
+msftncsi.com
+windowsupdate.com
+update.microsoft.com
+windowsupdate.microsoft.com
+download.windowsupdate.com
+download.microsoft.com
+wustat.windows.com
+ntservicepack.microsoft.com
+go.microsoft.com
+displaycatalog.mp.microsoft.com
+fe3.delivery.mp.microsoft.com
+
+# Windows Store
+dl.delivery.mp.microsoft.com
+geo-prod.do.dsp.mp.microsoft.com
+displaycatalog.md.mp.microsoft.com
+
+# Windows Activation (CRITICAL!)
+login.live.com
+login.microsoftonline.com
+licensing.mp.microsoft.com
+purchase.mp.microsoft.com
+
+# ===================================
+# OFFICE 365 / MICROSOFT 365
+# ===================================
+office.com
+office365.com
+outlook.office365.com
+outlook.office.com
+smtp.office365.com
+outlook.live.com
+office.net
+officeapps.live.com
+onedrive.live.com
+onedrive.com
+live.com
+graph.microsoft.com
+graph.windows.net
+login.windows.net
+clientconfig.microsoftonline-p.net
+companymanager.microsoftonline.com
+device.login.microsoftonline.com
+teams.microsoft.com
+api.onedrive.com
+skyapi.onedrive.live.com
+skydrive.wns.windows.com
+
+# ===================================
+# NVIDIA (Drivers & GeForce Experience)
+# ===================================
+nvidia.com
+gfwsl.geforce.com
+gfe.nvidia.com
+services.gfe.nvidia.com
+events.gfe.nvidia.com
+api.gfe.nvidia.com
+telemetry.gfe.nvidia.com
+international.download.nvidia.com
+download.nvidia.com
+images.nvidia.com
+developer.download.nvidia.com
+# Note: Some lists block nvidia CDN thinking it's tracking
+
+# ===================================
+# INTEL (Driver Updates)
+# ===================================
+downloadcenter.intel.com
+www.intel.com
+downloadmirror.intel.com
+dsadata.intel.com
+
+# ===================================
+# BITDEFENDER (Antivirus)
+# ===================================
+bitdefender.com
+bitdefender.net
+gravityzone.bitdefender.com
+update.bitdefender.com
+download.bitdefender.com
+api.bitdefender.com
+nimbus.bitdefender.net
+cloud.bitdefender.net
+
+# ===================================
+# STEAM (Full Functionality)
+# ===================================
+steampowered.com
+steamcommunity.com
+steamstatic.com
+steamusercontent.com
+steamcontent.com
+steamgames.com
+api.steampowered.com
+store.steampowered.com
+help.steampowered.com
+login.steampowered.com
+partner.steamgames.com
+community.cloudflare.steamstatic.com
+cdn.cloudflare.steamstatic.com
+client-download.steampowered.com
+cdn.steampowered.com
+steambroadcast.akamaized.net
+steamvideo-a.akamaihd.net
+steamstore-a.akamaihd.net
+steamcdn-a.akamaihd.net
+steamuserimages-a.akamaihd.net
+
+# ===================================
+# YOUTUBE (Full Features)
+# ===================================
+youtube.com
+www.youtube.com
+youtu.be
+youtubei.googleapis.com
+youtube-ui.l.google.com
+youtube-nocookie.com
+yt3.ggpht.com
+i.ytimg.com
+s.ytimg.com
+video-stats.l.google.com
+googlevideo.com
+redirector.googlevideo.com
+
+# ===================================
+# GOOGLE SERVICES (Core Functionality)
+# ===================================
+# Required for many apps/services to function
+gstatic.com
+googleapis.com
+clients4.google.com
+clients2.google.com
+www.googleapis.com
+fonts.googleapis.com
+fonts.gstatic.com
+ssl.gstatic.com
+googleusercontent.com
+# Note: DO NOT allow googleadservices.com or doubleclick.net
+
+# ===================================
+# PLEX (Remote Streaming)
+# ===================================
 plex.tv
 plex.direct
 app.plex.tv
 meta.plex.tv
 metadata.provider.plex.tv
-themoviedb.org
+status.plex.tv
+tvdb2.plex.tv
+pubsub.plex.tv
+proxy.plex.tv
+proxy02.pop.ord.plex.bz
+metrics.plex.tv
+dashboard.plex.tv
+gravatar.com
+
+# Plex Metadata Sources
 thetvdb.com
+themoviedb.org
+api.themoviedb.org
+image.tmdb.org
+fanart.tv
 
-# YouTube Core
-youtube.com
-youtu.be
-youtubei.googleapis.com
-googlevideo.com
+# ===================================
+# AMAZON / SHOPEE (Shopping)
+# ===================================
+# Amazon
+amazon.com
+ssl-images-amazon.com
+images-amazon.com
+m.media-amazon.com
+s3.amazonaws.com
+amazonaws.com
+cloudfront.net
+# Note: amazon-adsystem.com is tracking - only add if checkout breaks
 
-# Steam Core
-steampowered.com
-steamcommunity.com
-steamstatic.com
-api.steampowered.com
-client-download.steampowered.com
+# Shopee
+shopee.com
+shopee.sg
+shopee.ph
+shopee.co.id
+shopee.com.my
+shopee.tw
+shopee.vn
+shopee.co.th
+cf.shopee.com
+deo.shopeemobile.com
+
+# ===================================
+# FACEBOOK (Minimal Functionality)
+# ===================================
+facebook.com
+www.facebook.com
+facebook.net
+fbcdn.net
+fbsbx.com
+connect.facebook.net
+# For embedded posts/sharing only
+# DO NOT add: pixel.facebook.com, graph.facebook.com (tracking!)
+
+# ===================================
+# INSTAGRAM
+# ===================================
+instagram.com
+www.instagram.com
+cdninstagram.com
+scontent.cdninstagram.com
+i.instagram.com
+
+# ===================================
+# TWITTER / X
+# ===================================
+twitter.com
+x.com
+twimg.com
+abs.twimg.com
+pbs.twimg.com
+platform.twitter.com
+api.twitter.com
+upload.twitter.com
+ton.twitter.com
+video.twimg.com
+
+# ===================================
+# CONTENT DELIVERY NETWORKS (CDN)
+# ===================================
+# These are heavily blocked by aggressive lists
+akamaihd.net
+akamaized.net
+edgekey.net
+edgesuite.net
+llnwd.net
+cloudfront.net
+cloudflare.com
+cdnjs.cloudflare.com
+fastly.net
+jsdelivr.net
+
+# ===================================
+# SSL / SECURITY CERTIFICATES
+# ===================================
+# Required for HTTPS to work properly
+ocsp.digicert.com
+ocsp.pki.goog
+crl.microsoft.com
+ctldl.windowsupdate.com
+crl.globalsign.net
+
+# ===================================
+# DNS OVER HTTPS (if you use it)
+# ===================================
+dns.google
+cloudflare-dns.com
+doh.opendns.com
+
+# ===================================
+# GAMING PLATFORMS (Add if you use them)
+# ===================================
+
+# Epic Games Store
+epicgames.com
+epicgames.dev
+launcher-public-service-prod06.ol.epicgames.com
+eulatracking-public-service-prod06.ol.epicgames.com
+download.epicgames.com
+# DO NOT add tracking.epicgames.com
+
+# EA / Origin
+ea.com
+origin.com
+eaplay.com
+origin-a.akamaihd.net
+ssl-lvlt.cdn.ea.com
+cloudsync-prod.s3.amazonaws.com
+
+# Ubisoft / Uplay
+ubisoft.com
+ubi.com
+static3.cdn.ubi.com
+uplaypc-s-ubisoft.cdn.ubi.com
+
+# Battle.net / Blizzard
+battle.net
+blizzard.com
+blzddist1-a.akamaihd.net
+level3.blizzard.com
+dist.blizzard.com
+
+# GOG
+gog.com
+cdn.gog.com
+images.gog.com
+
+# Xbox (Windows Gaming)
+xboxlive.com
+xbox.com
+xbl.io
+account.xbox.com
+dlassets.xboxlive.com
+
+# PlayStation (if linking account)
+playstation.com
+playstation.net
+sonyentertainmentnetwork.com
+
+# Riot Games (League of Legends, Valorant)
+riotgames.com
+leagueoflegends.com
+playvalorant.com
+riot.com
+
+# ===================================
+# EMAIL SERVICES (Common)
+# ===================================
+# Gmail
+mail.google.com
+gmail.com
+googlemail.com
+
+# Outlook (already covered in Office 365 section)
+
+# ===================================
+# PRODUCTIVITY / UTILITIES
+# ===================================
+# Notion
+notion.so
+notion.com
+
+# Spotify (if you use it)
+spotify.com
+spclient.wg.spotify.com
+audio-ak-spotify-com.akamaized.net
+
+# Discord
+discord.com
+discordapp.com
+discord.gg
+cdn.discordapp.com
+media.discordapp.net
+gateway.discord.gg
+
+# Zoom
+zoom.us
+zoom.com
+
+# ===================================
+# SMART HOME / IoT (if applicable)
+# ===================================
+# Google Home/Nest
+googleapis.com
+clients2.google.com
+clients4.google.com
+
+# Amazon Alexa
+amazon.com
+device-metrics-us.amazon.com
+
+# ===================================
+# BANKING / FINANCE (Generic CDNs)
+# ===================================
+# Most banks use these CDNs
+edgekey.net
+akamaized.net
+cloudflare.com
+# Add your specific bank domains as needed
+
+
+# Windows Telemetry (functionality vs privacy trade-off)
+# ADD ONLY IF: Windows Features break, Cortana needed, etc.
+# vortex.data.microsoft.com
+# settings-win.data.microsoft.com
+# watson.telemetry.microsoft.com
+
+# Microsoft Store Tracking
+# ADD ONLY IF: Apps won't download from Microsoft Store
+# telecommand.telemetry.microsoft.com
+
+# Xbox Telemetry
+# ADD ONLY IF: Xbox Game Bar features break
+# nexusrules.officeapps.live.com
+
+# NVIDIA Telemetry
+# ADD ONLY IF: GeForce Experience features break
+# gfe.nvidia.com
+
+# Google Analytics (for websites you manage)
+# ADD ONLY IF: You need to access Google Analytics dashboard
+# google-analytics.com
+# ssl.google-analytics.com
