@@ -1,3 +1,6 @@
+# Custom Allow List.  Need to check if they really need to be whitelisted or not.
+widget-mediator.zopim.com
+
 # ===================================
 # WINDOWS 11 / MICROSOFT CORE SERVICES
 # ===================================
